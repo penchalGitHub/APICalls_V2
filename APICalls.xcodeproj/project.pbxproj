@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A31376C248FD006009B80DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A31376B248FD006009B80DE /* User.swift */; };
 		1A3ADA42248F97F00098EEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ADA41248F97F00098EEEB /* AppDelegate.swift */; };
 		1A3ADA44248F97F00098EEEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ADA43248F97F00098EEEB /* SceneDelegate.swift */; };
 		1A3ADA46248F97F00098EEEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ADA45248F97F00098EEEB /* ViewController.swift */; };
 		1A3ADA49248F97F00098EEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3ADA47248F97F00098EEEB /* Main.storyboard */; };
 		1A3ADA4B248F97F20098EEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3ADA4A248F97F20098EEEB /* Assets.xcassets */; };
 		1A3ADA4E248F97F30098EEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3ADA4C248F97F30098EEEB /* LaunchScreen.storyboard */; };
+		1A3ADA56248F98480098EEEB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ADA55248F98480098EEEB /* ViewModel.swift */; };
+		1A3ADA58248FA6AD0098EEEB /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ADA57248FA6AD0098EEEB /* NewUser.swift */; };
+		1AF4F791249096F200E45CB8 /* JsonObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4F790249096F200E45CB8 /* JsonObjectViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A31376B248FD006009B80DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1A3ADA3E248F97F00098EEEB /* APICalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APICalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3ADA41248F97F00098EEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A3ADA43248F97F00098EEEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		1A3ADA4A248F97F20098EEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A3ADA4D248F97F30098EEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A3ADA4F248F97F30098EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3ADA55248F98480098EEEB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1A3ADA57248FA6AD0098EEEB /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+		1AF4F790249096F200E45CB8 /* JsonObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObjectViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				1A3ADA41248F97F00098EEEB /* AppDelegate.swift */,
 				1A3ADA43248F97F00098EEEB /* SceneDelegate.swift */,
 				1A3ADA45248F97F00098EEEB /* ViewController.swift */,
+				1A3ADA55248F98480098EEEB /* ViewModel.swift */,
+				1A3ADA57248FA6AD0098EEEB /* NewUser.swift */,
+				1AF4F790249096F200E45CB8 /* JsonObjectViewModel.swift */,
+				1A31376B248FD006009B80DE /* User.swift */,
 				1A3ADA47248F97F00098EEEB /* Main.storyboard */,
 				1A3ADA4A248F97F20098EEEB /* Assets.xcassets */,
 				1A3ADA4C248F97F30098EEEB /* LaunchScreen.storyboard */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3ADA58248FA6AD0098EEEB /* NewUser.swift in Sources */,
 				1A3ADA46248F97F00098EEEB /* ViewController.swift in Sources */,
+				1A31376C248FD006009B80DE /* User.swift in Sources */,
 				1A3ADA42248F97F00098EEEB /* AppDelegate.swift in Sources */,
+				1AF4F791249096F200E45CB8 /* JsonObjectViewModel.swift in Sources */,
+				1A3ADA56248F98480098EEEB /* ViewModel.swift in Sources */,
 				1A3ADA44248F97F00098EEEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
