@@ -49,7 +49,8 @@ class ViewModel {
     let pageBaseURL = "https://reqres.in/api/users?"
     func getUsersDetails(pageID:Int, completionHandler: @escaping ([NewUser]) -> Void ){
         
-        let urlString = pageBaseURL + "page\(pageID)"
+        let urlString = pageBaseURL + "page=\(pageID)"
+//        let urlString = "https://reqres.in/api/users?page=1"
         let url = URL(string: urlString)
         let urlRequest = URLRequest(url: url!)
         
